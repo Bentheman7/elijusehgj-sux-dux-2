@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <event-group-screen comment="false" x="16" y="15">
+            <group eventID="1" id="-1"/>
+            <GROUP eid="0" id="0"/>
+            <int id="1" val="0"/>
+            <int id="2" val="1"/>
+        </event-group-screen>
+    </group>
+    <group eventID="1" id="-1">
+        <getdir comment="false" x="722" y="235">
+            <ACTOR eid="this" id="0"/>
+        </getdir>
+        <actor-entered-exited comment="false" x="314" y="24"/>
+    </group>
+</groups>

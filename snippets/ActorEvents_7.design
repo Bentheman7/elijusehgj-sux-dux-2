@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <collide comment="false" x="10" y="16">
+            <group eventID="1" id="-1">
+                <custom-10 comment="false" x="21" y="46">
+                    <ACTOR eid="this" id="0"/>
+                    <int id="1" val="1"/>
+                </custom-10>
+            </group>
+        </collide>
+    </group>
+    <group eventID="1" id="-1">
+        <other-actor comment="false" x="333" y="80"/>
+    </group>
+    <group eventID="2" id="0">
+        <event-group-screen comment="false" x="15" y="15">
+            <group eventID="2" id="-1"/>
+            <GROUP eid="1" id="0"/>
+            <int id="1" val="0"/>
+            <int id="2" val="0"/>
+        </event-group-screen>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <event-key-press-release comment="false" x="8" y="15">
+            <group eventID="3" id="-1"/>
+            <CONTROL id="0"/>
+            <int id="1" val="0"/>
+        </event-key-press-release>
+    </group>
+    <group eventID="3" id="-1"/>
+</groups>

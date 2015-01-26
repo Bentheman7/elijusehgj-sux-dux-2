@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="1" desc="" eventsnippetid="31" extheight="544" extwidth="704" extx="-32" exty="-32" format="3.2.0" gravx="-0.0" gravy="0.0" height="480" id="1" name="or" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="640">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="64" g="64" h="2" id="0" name="Region 0" pts="4,1.0,0.0,1.0,2.0,0.0,2.0,0.0,0.0" r="64" type="box" w="1" x="727" y="323"/>
+        <region b="64" g="64" h="309" id="1" name="Region 1" pts="4,363.0,0.0,363.0,309.0,0.0,309.0,0.0,0.0" r="64" type="box" w="363" x="276" y="200"/>
+        <region b="64" g="64" h="281" id="2" name="Region 2" pts="4,334.0,0.0,334.0,281.0,0.0,281.0,0.0,0.0" r="64" type="box" w="334" x="278" y="206"/>
+        <region b="64" g="64" h="469" id="3" name="Region 3" pts="4,486.0,0.0,486.0,469.0,0.0,469.0,0.0,0.0" r="64" type="box" w="486" x="218" y="145"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="0" id="7" name="Redhead RPG 1" sx="1.0" sy="1.0" x="117" y="39" z="0">
+            <snippets>
+                <s enabled="true" id="1">
+                    <prop id="32" list="0" val="down"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="33" list="0" val="left"/>
+                    <prop id="34" list="0" val="right"/>
+                    <prop id="35" list="0" val="0.0"/>
+                    <prop id="36" list="0" val="0.0"/>
+                    <prop id="37" list="0" val="true"/>
+                    <prop id="38" list="0" val="0.0"/>
+                    <prop id="39" list="0" val="true"/>
+                    <prop id="40" list="0" val="true"/>
+                    <prop id="11" list="0" val="30.0"/>
+                    <prop id="49" list="0" val="true"/>
+                    <prop id="50" list="0" val="Up Idle"/>
+                    <prop id="51" list="0" val="Up"/>
+                    <prop id="52" list="0" val="Down Idle"/>
+                    <prop id="53" list="0" val="Down"/>
+                    <prop id="54" list="0" val="Left Idle"/>
+                    <prop id="55" list="0" val="Left"/>
+                    <prop id="56" list="0" val="Right Idle"/>
+                    <prop id="57" list="0" val="Right"/>
+                    <prop id="58" list="0" val="false"/>
+                    <prop id="31" list="0" val="up"/>
+                </s>
+                <s enabled="true" id="2">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="0.0"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="0.0"/>
+                    <prop id="8" list="0" val="0.0"/>
+                    <prop id="9" list="0" val="0.0"/>
+                </s>
+                <s enabled="true" id="4">
+                    <prop id="1" list="0" val=""/>
+                </s>
+            </snippets>
+        </actor>
+        <actor a="0.0" aid="2" c="true" group="0" id="66" name="Mambo 2" sx="1.0" sy="1.0" x="441" y="258" z="0">
+            <snippets>
+                <s enabled="true" id="1">
+                    <prop id="32" list="0" val="No Control"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="33" list="0" val="No Control"/>
+                    <prop id="34" list="0" val="No Control"/>
+                    <prop id="35" list="0" val="0.0"/>
+                    <prop id="36" list="0" val="0.0"/>
+                    <prop id="37" list="0" val="true"/>
+                    <prop id="38" list="0" val="0.0"/>
+                    <prop id="39" list="0" val="true"/>
+                    <prop id="40" list="0" val="true"/>
+                    <prop id="11" list="0" val="30.0"/>
+                    <prop id="49" list="0" val="true"/>
+                    <prop id="50" list="0" val=""/>
+                    <prop id="51" list="0" val=""/>
+                    <prop id="52" list="0" val=""/>
+                    <prop id="53" list="0" val=""/>
+                    <prop id="54" list="0" val=""/>
+                    <prop id="55" list="0" val=""/>
+                    <prop id="56" list="0" val=""/>
+                    <prop id="57" list="0" val=""/>
+                    <prop id="58" list="0" val="false"/>
+                    <prop id="31" list="0" val="No Control"/>
+                </s>
+                <s enabled="true" id="34">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="1"/>
+                    <prop id="2" list="0" val="0.0"/>
+                    <prop id="3" list="0" val="0.0"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="5" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="70.0"/>
+                    <prop id="7" list="0" val="0.0"/>
+                    <prop id="8" list="0" val="true"/>
+                    <prop id="9" list="0" val="5.0"/>
+                    <prop id="10" list="0" val="0.0"/>
+                    <prop id="11" list="0" val="false"/>
+                    <prop id="12" list="0" val="false"/>
+                </s>
+                <s enabled="true" id="22">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="true"/>
+                </s>
+                <s enabled="true" id="28">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="false"/>
+                    <prop id="2" list="0" val="No Control"/>
+                    <prop id="3" list="0" val="true"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="5" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="false"/>
+                    <prop id="7" list="0" val="0"/>
+                    <prop id="8" list="0" val="100.0"/>
+                    <prop id="9" list="0" val="25.0"/>
+                    <prop id="10" list="0" val="35.0"/>
+                    <prop id="11" list="0" val="No Control"/>
+                    <prop id="12" list="0" val="No Control"/>
+                    <prop id="13" list="0" val="0.4"/>
+                    <prop id="14" list="0" val="true"/>
+                    <prop id="15" list="0" val=""/>
+                    <prop id="16" list="0" val=""/>
+                    <prop id="17" list="0" val=""/>
+                    <prop id="18" list="0" val=""/>
+                    <prop id="19" list="0" val=""/>
+                    <prop id="20" list="0" val=""/>
+                    <prop id="21" list="0" val="Running"/>
+                </s>
+                <s enabled="true" id="30">
+                    <prop id="1" list="0" val=""/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,640.0,480.0,0.0,480.0,0.0,0.0,640.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="0,1,2,3," retainAtlases="false"/>
+</scene>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<groups>
+    <group eventID="1" id="0">
+        <receive-message comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-8-6 comment="false" x="26" y="40">
+                    <as-number comment="false" id="0" x="0" y="0">
+                        <custom-122 comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-122>
+                    </as-number>
+                </set-val-8-6>
+            </group>
+            <int id="0" val="tookDamage"/>
+        </receive-message>
+    </group>
+    <group eventID="1" id="-1"/>
+    <group eventID="2" id="0">
+        <receive-message comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-8-6 comment="false" x="26" y="40">
+                    <as-number comment="false" id="0" x="0" y="0">
+                        <custom-122 comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-122>
+                    </as-number>
+                </set-val-8-6>
+            </group>
+            <int id="0" val="restore"/>
+        </receive-message>
+    </group>
+    <group eventID="2" id="-1"/>
+    <group eventID="3" id="0">
+        <step comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <if comment="false" x="26" y="40">
+                    <group eventID="-1" id="-1">
+                        <set-val-8-10 comment="false" x="37" y="70">
+                            <true comment="false" id="0" x="0" y="0"/>
+                        </set-val-8-10>
+                        <set-val-8-6 comment="false" x="37" y="95">
+                            <as-number comment="false" id="0" x="0" y="0">
+                                <custom-122 comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                </custom-122>
+                            </as-number>
+                        </set-val-8-6>
+                        <set-val-8-7 comment="false" x="37" y="133">
+                            <as-number comment="false" id="0" x="0" y="0">
+                                <get-attribute comment="false" id="0" x="0" y="0">
+                                    <ACTOR eid="this" id="0"/>
+                                    <int id="1" val="Health"/>
+                                    <int id="2" val="maxHealth"/>
+                                </get-attribute>
+                            </as-number>
+                        </set-val-8-7>
+                    </group>
+                    <not comment="false" id="0" x="0" y="0">
+                        <get-val-8-10 comment="false" id="0" x="0" y="0"/>
+                    </not>
+                </if>
+            </group>
+        </step>
+    </group>
+    <group eventID="3" id="-1"/>
+    <group eventID="4" id="0">
+        <draw comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-8-8 comment="false" x="26" y="40">
+                    <div comment="false" id="0" x="0" y="0">
+                        <get-val-8-6 comment="false" id="0" x="0" y="0"/>
+                        <get-val-8-7 comment="false" id="1" x="0" y="0"/>
+                    </div>
+                </set-val-8-8>
+                <set-val-8-9 comment="false" x="26" y="70">
+                    <times comment="false" id="0" x="0" y="0">
+                        <get-val-8-3 comment="false" id="0" x="0" y="0"/>
+                        <get-val-8-8 comment="false" id="1" x="0" y="0"/>
+                    </times>
+                </set-val-8-9>
+                <set-color comment="false" x="26" y="100">
+                    <color b="0" g="0" id="0" r="0"/>
+                </set-color>
+                <drawfill-rect comment="false" x="26" y="127">
+                    <int id="0" val="1"/>
+                    <int id="1" val="-1"/>
+                    <minus comment="false" id="2" x="0" y="0">
+                        <neg comment="false" id="0" x="0" y="0">
+                            <get-val-8-5 comment="false" id="0" x="0" y="0"/>
+                        </neg>
+                        <int id="1" val="1"/>
+                    </minus>
+                    <plus comment="false" id="3" x="0" y="0">
+                        <get-val-8-3 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </plus>
+                    <plus comment="false" id="4" x="0" y="0">
+                        <get-val-8-4 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="2"/>
+                    </plus>
+                </drawfill-rect>
+                <if comment="false" x="26" y="169">
+                    <group eventID="-1" id="-1">
+                        <set-color comment="false" x="37" y="204">
+                            <color b="0" g="128" id="0" r="0"/>
+                        </set-color>
+                    </group>
+                    <moreeq comment="false" id="0" x="0" y="0">
+                        <times comment="false" id="0" x="0" y="0">
+                            <get-val-8-8 comment="false" id="0" x="0" y="0"/>
+                            <int id="1" val="100"/>
+                        </times>
+                        <get-val-8-2 comment="false" id="1" x="0" y="0"/>
+                    </moreeq>
+                </if>
+                <else comment="false" x="26" y="243">
+                    <group eventID="-1" id="-1">
+                        <if comment="false" x="37" y="263">
+                            <group eventID="-1" id="-1">
+                                <set-color comment="false" x="48" y="298">
+                                    <color b="0" g="200" id="0" r="255"/>
+                                </set-color>
+                            </group>
+                            <moreeq comment="false" id="0" x="0" y="0">
+                                <times comment="false" id="0" x="0" y="0">
+                                    <get-val-8-8 comment="false" id="0" x="0" y="0"/>
+                                    <int id="1" val="100"/>
+                                </times>
+                                <get-val-8-1 comment="false" id="1" x="0" y="0"/>
+                            </moreeq>
+                        </if>
+                        <else comment="false" x="37" y="337">
+                            <group eventID="-1" id="-1">
+                                <set-color comment="false" x="48" y="357">
+                                    <color b="0" g="0" id="0" r="255"/>
+                                </set-color>
+                            </group>
+                        </else>
+                    </group>
+                </else>
+                <drawfill-rect comment="false" x="26" y="408">
+                    <int id="0" val="1"/>
+                    <int id="1" val="0"/>
+                    <neg comment="false" id="2" x="0" y="0">
+                        <get-val-8-5 comment="false" id="0" x="0" y="0"/>
+                    </neg>
+                    <get-val-8-9 comment="false" id="3" x="0" y="0"/>
+                    <get-val-8-4 comment="false" id="4" x="0" y="0"/>
+                </drawfill-rect>
+            </group>
+        </draw>
+    </group>
+    <group eventID="4" id="-1"/>
+    <group eventID="5" id="0">
+        <receive-message comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-8-6 comment="false" x="26" y="40">
+                    <as-number comment="false" id="0" x="0" y="0">
+                        <custom-122 comment="false" id="0" x="0" y="0">
+                            <ACTOR eid="this" id="0"/>
+                        </custom-122>
+                    </as-number>
+                </set-val-8-6>
+            </group>
+            <int id="0" val="heal"/>
+        </receive-message>
+    </group>
+    <group eventID="5" id="-1"/>
+    <group eventID="6" id="0">
+        <init comment="false" x="15" y="15">
+            <group eventID="-1" id="-1">
+                <set-val-8-10 comment="false" x="26" y="40">
+                    <false comment="false" id="0" x="0" y="0"/>
+                </set-val-8-10>
+            </group>
+        </init>
+    </group>
+    <group eventID="6" id="-1"/>
+</groups>

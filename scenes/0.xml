@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<scene depth="2" desc="" eventsnippetid="0" extheight="544" extwidth="1184" extx="-32" exty="-32" format="3.2.0" gravx="-0.0" gravy="0.0" height="480" id="0" name="moazfsueghjjh sux dux the 3" revision="" savecount="0" tiled="1" tileh="32" tilew="32" type="standard" width="1120">
+    <layers>
+        <color-bg blue="255" green="255" red="255"/>
+        <layer blendMode="normal" color="100,168,234" id="0" locked="false" name="Layer 0" opacity="100" order="1" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+        <layer blendMode="normal" color="64,64,64" id="2" locked="false" name="Layer 2" opacity="100" order="0" scrollFactorX="1.0" scrollFactorY="1.0" visible="true"/>
+    </layers>
+    <joints/>
+    <regions>
+        <region b="0" g="255" h="36" id="0" name="Region 0" pts="4,0.0,0.0,0.0,36.0,68.0,36.0,68.0,0.0" r="0" type="box" w="68" x="-106" y="514"/>
+        <region b="0" g="255" h="37" id="1" name="Region 1" pts="4,0.0,0.0,0.0,37.0,32.0,37.0,32.0,0.0" r="255" type="box" w="32" x="63" y="182"/>
+    </regions>
+    <terrainRegions/>
+    <actors>
+        <actor a="0.0" aid="1" c="true" group="0" id="7" name="Redhead RPG 1" sx="1.0" sy="1.0" x="330" y="103" z="0">
+            <snippets>
+                <s enabled="true" id="1">
+                    <prop id="32" list="0" val="down"/>
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="33" list="0" val="left"/>
+                    <prop id="34" list="0" val="right"/>
+                    <prop id="35" list="0" val="0.0"/>
+                    <prop id="36" list="0" val="0.0"/>
+                    <prop id="37" list="0" val="true"/>
+                    <prop id="38" list="0" val="0.0"/>
+                    <prop id="39" list="0" val="false"/>
+                    <prop id="40" list="0" val="true"/>
+                    <prop id="11" list="0" val="30.0"/>
+                    <prop id="49" list="0" val="true"/>
+                    <prop id="50" list="0" val="Up Idle"/>
+                    <prop id="51" list="0" val="Up"/>
+                    <prop id="52" list="0" val="Down Idle"/>
+                    <prop id="53" list="0" val="Down"/>
+                    <prop id="54" list="0" val="Left Idle"/>
+                    <prop id="55" list="0" val="Left"/>
+                    <prop id="56" list="0" val="Right Idle"/>
+                    <prop id="57" list="0" val="Right"/>
+                    <prop id="58" list="0" val="false"/>
+                    <prop id="31" list="0" val="up"/>
+                </s>
+                <s enabled="true" id="2">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                </s>
+                <s enabled="true" id="3">
+                    <prop id="2147483647" list="0" val="thisactor"/>
+                    <prop id="1" list="0" val="0.0"/>
+                    <prop id="4" list="0" val="0.0"/>
+                    <prop id="6" list="0" val="0.0"/>
+                    <prop id="8" list="0" val="0.0"/>
+                    <prop id="9" list="0" val="0.0"/>
+                </s>
+                <s enabled="true" id="4">
+                    <prop id="1" list="0" val=""/>
+                </s>
+            </snippets>
+        </actor>
+    </actors>
+    <snippets/>
+    <terrain>
+        <p pts="4,1120.0,480.0,0.0,480.0,0.0,0.0,1120.0,0.0" x="0.0" y="0.0"/>
+    </terrain>
+    <atlases members="" retainAtlases="true"/>
+</scene>
